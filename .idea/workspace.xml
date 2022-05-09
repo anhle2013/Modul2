@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e2b154-3e7b-4140-a6af-996a7becbcf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_and_interface/comparator/CircleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_and_interface/comparator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatic_testing/calculator/SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatic_testing/calculator/SimpleCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/calculator/TestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/cylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/cylinder/CylinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/fizzbuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/fizzbuzz/TestFizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/tennis/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/tennis/TennisGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/tennis/tennis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/generic/DemoGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/generic/DemoGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/decimal_to_binary/BinaryStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/decimal_to_binary/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/linked_list_queue/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/linked_list_queue/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/abstract_and_interface/comparate/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/abstract_and_interface/comparate/CircleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/abstract_and_interface/comparate/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/MyClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +44,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/cleancode_and_refactor/calculator/TestCalculator.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28Pwew7iMlUvSTP4HzbdAvloplE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/abstract_and_interface/colorable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,13 +86,13 @@
       <recent name="abstract_and_interface.resizeable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (4)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_and_interface.comparable.Test" />
+  <component name="RunManager" selected="Application.DecimalToBinary">
+    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.decimal_to_binary.DecimalToBinary" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_and_interface.comparable.*" />
+          <option name="PATTERN" value="dsa.decimal_to_binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_and_interface.resizeable.Test" />
+    <configuration name="GenericStackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.generic_stack.GenericStackClient" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_and_interface.resizeable.*" />
+          <option name="PATTERN" value="dsa.generic_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_and_interface.colorable.Test" />
+    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.linked_list_queue.LinkedListQueueClient" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_and_interface.colorable.*" />
+          <option name="PATTERN" value="dsa.linked_list_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_and_interface.animal.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Main" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_and_interface.animal.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_and_interface.comparator.Test" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.test" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_and_interface.comparator.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DecimalToBinary" />
+        <item itemvalue="Application.LinkedListQueueClient" />
+        <item itemvalue="Application.GenericStackClient" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +172,21 @@
       <updated>1651131628684</updated>
       <workItem from="1651131630061" duration="16000" />
       <workItem from="1651131845005" duration="8161000" />
+      <workItem from="1651151939023" duration="2921000" />
+      <workItem from="1651196602336" duration="398000" />
+      <workItem from="1651201340459" duration="3585000" />
+      <workItem from="1651215916953" duration="623000" />
+      <workItem from="1651556579030" duration="404000" />
+      <workItem from="1651628396378" duration="1131000" />
+      <workItem from="1651646306588" duration="659000" />
+      <workItem from="1651720938149" duration="664000" />
+      <workItem from="1651732872562" duration="1161000" />
+      <workItem from="1651758470466" duration="1433000" />
+      <workItem from="1651799524278" duration="1951000" />
+      <workItem from="1651819812827" duration="3366000" />
+      <workItem from="1651934488788" duration="1013000" />
+      <workItem from="1651937955981" duration="911000" />
+      <workItem from="1652017605679" duration="6628000" />
     </task>
     <servers />
   </component>

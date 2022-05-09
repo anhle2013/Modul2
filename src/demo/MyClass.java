@@ -1,4 +1,4 @@
-//public class MyClass {
+package demo;//public class MyClass {
 //    static public int X = 2;
 //
 //    static {
