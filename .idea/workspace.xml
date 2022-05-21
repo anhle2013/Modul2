@@ -1,32 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e0e2b154-3e7b-4140-a6af-996a7becbcf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automatic_testing/calculator/SimpleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automatic_testing/calculator/SimpleCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/calculator/TestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/cylinder/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/cylinder/CylinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/fizzbuzz/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/fizzbuzz/TestFizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/tennis/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/tennis/TennisGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/tennis/tennis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/generic/DemoGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/generic/DemoGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/decimal_to_binary/BinaryStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/decimal_to_binary/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/linked_list_queue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/linked_list_queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatic_testing/next_day/NextDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatic_testing/next_day/TestDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatic_testing/triangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatic_testing/triangle/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatic_testing/unit_test/AbsoluteNumberCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatic_testing/unit_test/AbsoluteNumberCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/comparable_vs_comparator/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/comparable_vs_comparator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/comparable_vs_comparator/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/hashmap_vs_hashset/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/hashmap_vs_hashset/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/product_manager/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/product_manager/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/product_manager/modal/ASCByImportPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/product_manager/modal/DESByImportPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/product_manager/modal/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/product_manager/services/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/product_manager/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/product_manager/view/ProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_framework/testmap/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/demo/TestTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/demo/bin_search/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/demo/bin_search/TestBinSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/demo/buffer/BufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/demo/text/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_list/array_list/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_list/array_list/TestArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_list/linked_list/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_list/linked_list/TestLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_list/my_linked_list/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_list/my_linked_list/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_list/my_list/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_list/my_list/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/brackets/Brackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/demerging/Demerging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/demerging/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/palindrome/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/queue/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/queue_array/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/queue_array/QueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/reverse/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/reverse/ReverseArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/stack_array/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/stack_array/StackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa_stack_queue/tree_map/TreeMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_and_debug/array/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_and_debug/calculate/CalculationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_and_debug/debug/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_and_debug/triangle/IllegalTriangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_and_debug/triangle/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regex/account/AccountExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regex/account/TestAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regex/email/EmailExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regex/email/TestEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/binary_search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/string/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/copy_file/CopyFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/copy_file/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/copy_file/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/find_max/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/find_max/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/find_max/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/read_csv/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/read_csv/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/read_csv/countries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/read_file/ReadFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/read_file/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/read_file/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text_file/read_file/file3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/abstract_and_interface/comparate/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/abstract_and_interface/comparate/CircleComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/abstract_and_interface/comparate/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/cleancode_and_refactor/tennis/TennisGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/cleancode_and_refactor/tennis/TennisGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/demo/demo/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/demo/demo/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/demo/demo/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/dsa/decimal_to_binary/BinaryStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/dsa/decimal_to_binary/DecimalToBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/dsa/generic_stack/GenericStackClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/dsa/generic_stack/MyGenericStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/dsa/linked_list_queue/LinkedListQueueClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/dsa/linked_list_queue/MyLinkedListQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/dsa/linked_list_queue/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cleancode_and_refactor/tennis/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleancode_and_refactor/tennis/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/demo/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/decimal_to_binary/BinaryStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa_stack_queue/decimal_to_binary/BinaryStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/decimal_to_binary/DecimalToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa_stack_queue/decimal_to_binary/DecimalToBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/generic_stack/GenericStackClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa_stack_queue/generic_stack/GenericStackClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/generic_stack/MyGenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa_stack_queue/generic_stack/MyGenericStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/linked_list_queue/LinkedListQueueClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa_stack_queue/linked_list_queue/LinkedListQueueClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/linked_list_queue/MyLinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa_stack_queue/linked_list_queue/MyLinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/linked_list_queue/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa_stack_queue/linked_list_queue/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +107,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -49,6 +121,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="28Pwew7iMlUvSTP4HzbdAvloplE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -67,15 +142,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\Modul 2\practice\src\collection_framework\product_manager\modal" />
+      <recent name="D:\CODEGYM\Modul 2\practice\src\collection_framework\product_manager\view" />
       <recent name="D:\CODEGYM\Modul 2\practice\src\abstract_and_interface\colorable" />
       <recent name="D:\CODEGYM\Modul 2\practice\src\abstract_and_interface\resizeable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\Modul 2\practice" />
+      <recent name="D:\CODEGYM\Modul 2\practice\src\demo\demo\text" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="abstract_and_interface" />
@@ -86,13 +173,13 @@
       <recent name="abstract_and_interface.resizeable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecimalToBinary">
-    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.decimal_to_binary.DecimalToBinary" />
+  <component name="RunManager" selected="JUnit.TriangleTest">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.demo.Test" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.decimal_to_binary.*" />
+          <option name="PATTERN" value="demo.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericStackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.generic_stack.GenericStackClient" />
+    <configuration name="TestLinkedList" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa_list.linked_list.TestLinkedList" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.generic_stack.*" />
+          <option name="PATTERN" value="dsa_list.linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,52 +200,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.linked_list_queue.LinkedListQueueClient" />
+    <configuration name="AbsoluteNumberCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.linked_list_queue.*" />
+          <option name="PATTERN" value="automatic_testing.unit_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="automatic_testing.unit_test" />
+      <option name="MAIN_CLASS_NAME" value="automatic_testing.unit_test.AbsoluteNumberCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Main" />
+    <configuration name="AbsoluteNumberCalculatorTest.testFindAbsolute1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="automatic_testing.unit_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="automatic_testing.unit_test" />
+      <option name="MAIN_CLASS_NAME" value="automatic_testing.unit_test.AbsoluteNumberCalculatorTest" />
+      <option name="METHOD_NAME" value="testFindAbsolute1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.test" />
+    <configuration name="TestDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="automatic_testing.next_day.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="automatic_testing.next_day" />
+      <option name="MAIN_CLASS_NAME" value="automatic_testing.next_day.TestDay" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automatic_testing.triangle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automatic_testing.triangle" />
+      <option name="MAIN_CLASS_NAME" value="automatic_testing.triangle.TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DecimalToBinary" />
-        <item itemvalue="Application.LinkedListQueueClient" />
-        <item itemvalue="Application.GenericStackClient" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.TestDay" />
+        <item itemvalue="JUnit.AbsoluteNumberCalculatorTest" />
+        <item itemvalue="JUnit.AbsoluteNumberCalculatorTest.testFindAbsolute1" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +296,45 @@
       <workItem from="1651934488788" duration="1013000" />
       <workItem from="1651937955981" duration="911000" />
       <workItem from="1652017605679" duration="6628000" />
+      <workItem from="1652059651233" duration="12556000" />
+      <workItem from="1652078589779" duration="6390000" />
+      <workItem from="1652101568996" duration="4007000" />
+      <workItem from="1652145363875" duration="7849000" />
+      <workItem from="1652158114665" duration="469000" />
+      <workItem from="1652164742931" duration="6169000" />
+      <workItem from="1652233537214" duration="5427000" />
+      <workItem from="1652240287560" duration="4637000" />
+      <workItem from="1652251255343" duration="3831000" />
+      <workItem from="1652255186938" duration="9495000" />
+      <workItem from="1652324163770" duration="4121000" />
+      <workItem from="1652330032126" duration="1275000" />
+      <workItem from="1652350735310" duration="538000" />
+      <workItem from="1652354372077" duration="8478000" />
+      <workItem from="1652370301274" duration="1684000" />
+      <workItem from="1652404515901" duration="7470000" />
+      <workItem from="1652424258696" duration="8595000" />
+      <workItem from="1652443119949" duration="2788000" />
+      <workItem from="1652495170005" duration="2049000" />
+      <workItem from="1652514447101" duration="4889000" />
+      <workItem from="1652605938137" duration="3781000" />
+      <workItem from="1652612363337" duration="550000" />
+      <workItem from="1652616394238" duration="29000" />
+      <workItem from="1652616444146" duration="1577000" />
+      <workItem from="1652663914745" duration="2297000" />
+      <workItem from="1652693029074" duration="607000" />
+      <workItem from="1652751794901" duration="5000000" />
+      <workItem from="1652836382227" duration="8812000" />
+      <workItem from="1652856231386" duration="1068000" />
+      <workItem from="1652857347735" duration="6618000" />
+      <workItem from="1652872996779" duration="2092000" />
+      <workItem from="1652884355043" duration="1272000" />
+      <workItem from="1652923500223" duration="2728000" />
+      <workItem from="1652926280029" duration="8509000" />
+      <workItem from="1652944085516" duration="1130000" />
+      <workItem from="1652955255108" duration="705000" />
+      <workItem from="1653019524870" duration="75000" />
+      <workItem from="1653029491105" duration="799000" />
+      <workItem from="1653122360303" duration="1656000" />
     </task>
     <servers />
   </component>
@@ -203,5 +351,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exception_and_debug/debug/LinearEquationResolver.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="a!=0" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/exception_and_debug/debug/LinearEquationResolver.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="3" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

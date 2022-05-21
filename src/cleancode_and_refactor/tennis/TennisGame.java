@@ -2,62 +2,72 @@ package cleancode_and_refactor.tennis;
 
 public class TennisGame {
 
-    public static String getScore(String player1Name, String player2Name, int m_score1, int m_score2) {
-        String score = "";
+    public static final String LOVE_ALL = "Love-All";
+    public static final String FIFTEEN_ALL = "Fifteen-All";
+    public static final String THIRTY_ALL = "Thirty-All";
+    public static final String FORTY_ALL = "Forty-All";
+    public static final String DEUCE = "Deuce";
+    public static final String LOVE = "Love";
+    public static final String FIFTEEN = "Fifteen";
+    public static final String THIRTY = "Thirty";
+    public static final String FORTY = "Forty";
+
+    public static String getScore(String player1Name, String player2Name, int scorePlayer1, int scorePlayer2) {
+        StringBuilder score = new StringBuilder();
         int tempScore=0;
-        if (m_score1==m_score2)
+        if (scorePlayer1==scorePlayer2)
         {
-            switch (m_score1)
+            switch (scorePlayer1)
             {
                 case 0:
-                    score = "Love-All";
+                    score = new StringBuilder(LOVE_ALL);
                     break;
                 case 1:
-                    score = "Fifteen-All";
+                    score = new StringBuilder(FIFTEEN_ALL);
                     break;
                 case 2:
-                    score = "Thirty-All";
+                    score = new StringBuilder(THIRTY_ALL);
                     break;
                 case 3:
-                    score = "Forty-All";
+                    score = new StringBuilder(FORTY_ALL);
                     break;
                 default:
-                    score = "Deuce";
+                    score = new StringBuilder(DEUCE);
                     break;
 
             }
         }
-        else if (m_score1>=4 || m_score2>=4)
+        else if (scorePlayer1>=4 || scorePlayer2>=4)
         {
-            int minusResult = m_score1-m_score2;
-            if (minusResult==1) score ="Advantage player1";
-            else if (minusResult ==-1) score ="Advantage player2";
-            else if (minusResult>=2) score = "Win for player1";
-            else score ="Win for player2";
+            int minusResult = scorePlayer1-scorePlayer2;
+            if (minusResult==1) score = new StringBuilder("Advantage player: " + player1Name);
+            else if (minusResult ==-1) score = new StringBuilder("Advantage player: " + player2Name);
+            else if (minusResult>=2) score = new StringBuilder("Win for player: " + player1Name);
+            else score = new StringBuilder("Win for player: " + player2Name);
         }
         else
         {
             for (int i=1; i<3; i++)
             {
-                if (i==1) tempScore = m_score1;
-                else { score+="-"; tempScore = m_score2;}
+                if (i==1) tempScore = scorePlayer1;
+                else { score.append("-"); tempScore = scorePlayer2;}
                 switch(tempScore)
                 {
                     case 0:
-                        score+="Love";
+                        score.append(LOVE);
                         break;
                     case 1:
-                        score+="Fifteen";
+                        score.append(FIFTEEN);
                         break;
                     case 2:
-                        score+="Thirty";
+                        score.append(THIRTY);
                         break;
                     case 3:
-                        score+="Forty";
+                        score.append(FORTY);
                         break;
                 }
             }
         }
-        return score;
+        return score.toString();
     }
 }
